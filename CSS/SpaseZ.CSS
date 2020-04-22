@@ -1,5 +1,5 @@
 {
-	outline: orange 1px solid;
+    outline: orange 1px solid;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
     margin: 0px auto;
     width: 1280px;
     background-color: #131313;
-    font-family: "Courier New Bold", sans-serif;
+    font-family: "Verdana, sans-serif;
     font-size: 14px;
     color: #d4d4d4;
 }
@@ -46,9 +46,13 @@ nav {
 
 .text_header {
     color: white;
-	font-family: Courier New Bold;
-	font-size: 45px;
+    font-family: "Courier New" sans-serif;
+    font-size: 45px;
+    text-align: left;
+}
 
+.text{
+    text-align: left;
 }
 
 .button_header {
@@ -99,7 +103,7 @@ header li {
     display: inline;
 }
 
-.second_screan {
+.second_screen {
     background-color: #131313;
     display: flex;
     justify-content: space-between;
@@ -167,7 +171,8 @@ li {
 
 .text_logo {
 
-	margin-top:80px; color: #535353;
+    margin-top: 80px;
+    color: #535353;
 }
 
 .list_footer {
@@ -179,7 +184,7 @@ li {
     color: white;
     margin-top: 30px;
     padding-bottom: 50px;
-	font-size: 15px;
+    font-size: 15px;
 
 }
 
@@ -193,7 +198,7 @@ li {
     line-height: 0.5;
 }
 
-a{
-	text-decoration: none;
+a {
+    text-decoration: none;
     color: #888888;
 }
